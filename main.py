@@ -15,19 +15,16 @@ def getUserIndex(data, username):
         return None
 
 def addNewUser(userData):
-    file = open("users.json", "r+")
-
-    if os.stat("users.json").st_size == 0:
-        template = {"users":[]}
-        file.write(json.dumps(template))
-
-    userList = file.read()
-    userList = json.loads(userList)
-    userList["users"].append(userData)
-    file.truncate()
-    file.write(json.dumps(userList))
-    print(userList)
-    file.close()
+    with open(r'users.json', 'r+') as outfile:
+        if not os.stat("users.json").st_size:
+            data = {"users":[]}
+            data["users"].append(userData)
+            json.dump(data, outfile, indent=4)
+        else:
+            data = json.load(outfile)
+            data["users"].append(userData)
+            outfile.seek(0)
+            json.dump(data, outfile, indent=4)
 
 def makeUser(username, password, firstName, lastName, bio):
     user = { #make user JSON object

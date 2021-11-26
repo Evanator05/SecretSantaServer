@@ -1,1 +1,34 @@
-{"users": [{"name": {"username": "evanator", "firstName": "evan", "lastName": "watson"}, "target": "Picked December First", "password": "5612732163", "bio": "my name is evan"}]}
+{
+    "users": [
+        {
+            "name": {
+                "username": "evanator",
+                "firstName": "evan",
+                "lastName": "watson"
+            },
+            "target": "Picked December First",
+            "password": "5612732163",
+            "bio": "my name is evan"
+        },
+        {
+            "name": {
+                "username": "luxxey",
+                "firstName": "antwon",
+                "lastName": "tony"
+            },
+            "target": "Picked December First",
+            "password": "5sadiubvrisueabrev78uwe",
+            "bio": "bio"
+        },
+        {
+            "name": {
+                "username": "evanator",
+                "firstName": "evan",
+                "lastName": "watson"
+            },
+            "target": "Picked December First",
+            "password": "5612732163",
+            "bio": "my name is evan"
+        }
+    ]
+}
