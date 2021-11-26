@@ -18,9 +18,7 @@ def addNewUser(userData):
     file = open("users.json", "r+")
 
     if os.stat("users.json").st_size == 0:
-        template = {
-            "users":[]
-        }
+        template = {"users":[]}
         file.write(json.dumps(template))
 
     userList = file.read()
