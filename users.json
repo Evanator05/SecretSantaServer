@@ -1,34 +1,20 @@
 {
     "users": [
         {
-            "name": {
-                "username": "evanator",
-                "firstName": "evan",
-                "lastName": "watson"
-            },
+            "username": "xander",
+            "firstName": "xana",
+            "lastName": "lasansame",
             "target": "Picked December First",
-            "password": "5612732163",
-            "bio": "my name is evan"
+            "password": "906b612c736ae8e0fc11e1640e6c90460978ef2c8f2f49ea8496f6b8fd73d693",
+            "bio": "badfasdf asdf asdf sdf sadf asdfo"
         },
         {
-            "name": {
-                "username": "luxxey",
-                "firstName": "antwon",
-                "lastName": "tony"
-            },
+            "username": "area51rocks",
+            "firstName": "arend",
+            "lastName": "rea",
             "target": "Picked December First",
-            "password": "5sadiubvrisueabrev78uwe",
-            "bio": "bio"
-        },
-        {
-            "name": {
-                "username": "evanator",
-                "firstName": "evan",
-                "lastName": "watson"
-            },
-            "target": "Picked December First",
-            "password": "5612732163",
-            "bio": "my name is evan"
+            "password": "2fd91cbe2708ebc76ef300d93ed2f53898bdd9cc2ddccb5bdf735e4fc2389a8f",
+            "bio": "my name is arend and I love anime and balls"
         }
     ]
 }
