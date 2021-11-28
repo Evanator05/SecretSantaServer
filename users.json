@@ -1,20 +1,20 @@
 {
     "users": [
         {
-            "username": "xander",
-            "firstName": "xana",
-            "lastName": "lasansame",
-            "target": "Picked December First",
-            "password": "906b612c736ae8e0fc11e1640e6c90460978ef2c8f2f49ea8496f6b8fd73d693",
-            "bio": "badfasdf asdf asdf sdf sadf asdfo"
-        },
-        {
             "username": "area51rocks",
             "firstName": "arend",
             "lastName": "rea",
             "target": "Picked December First",
             "password": "2fd91cbe2708ebc76ef300d93ed2f53898bdd9cc2ddccb5bdf735e4fc2389a8f",
             "bio": "my name is arend and I love anime and balls"
+        },
+        {
+            "username": "immunernsrneseeleskrer",
+            "firstName": "david",
+            "lastName": "michchelcee",
+            "target": "Picked December First",
+            "password": "69238bc31c382c2a983078127bc19abacfdc0bc27a15d10e039e416d5cf67530",
+            "bio": "I love femboys"
         }
     ]
 }
